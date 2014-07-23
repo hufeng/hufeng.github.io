@@ -103,8 +103,9 @@ categories: jekyll update
 此处一坑是，如果我们直接继承TagSupport去实现我们的功能时，发现惨了，我们的Service不能被Spring autoWeired了。
 So我们还是乖乖使用Spring封装的这个RequestContextAwareTag吧。
 
-public class SecurityUrlTag extends RequestContextAwareTag {
-    private String url;
+
+	public class SecurityUrlTag extends RequestContextAwareTag {
+    	private String url;
 
     /**
      * 权限判断
