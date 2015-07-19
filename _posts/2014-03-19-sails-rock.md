@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sails Rock"
+title:  "Sails.js is Rock"
 date:   2014-4-23 23:41:27
 categories: Node
 ---
